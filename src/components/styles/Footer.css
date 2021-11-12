@@ -1,0 +1,51 @@
+.Footer {
+  display: grid;
+  background-color: #e9222c;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+.Footer__social {
+  border-top: 1px solid #9f1118;
+  padding: 0;
+}
+.Footer__socialMeida{
+  display: flex;
+  height: 50px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Footer__socialMeida a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+
+}
+.Footer__social img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.heart{
+  animation: latidos 1s ease infinite;
+}
+
+@keyframes latidos {
+  0%, 100%{
+   transform: scale(.7);
+  }
+  50%{
+   transform: scale(1);
+  }
+}
+
+.icon-twitter:hover{
+  transition: .2s;
+  color: #00ACEE;
+}
+
+.icon-linkedin:hover{
+  transition: .2s;
+  color: #0e76a8;
+}

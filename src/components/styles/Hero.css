@@ -1,0 +1,85 @@
+.Hero {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  justify-items: center;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: #091d36;
+  padding-bottom: 10px;
+}
+
+.ilustration__container {
+  width: 209px;
+  margin: 120px 0 0 0;
+}
+
+.ilustration__container__img {
+  width: 100%;
+}
+
+.Hero h2 {
+  font-weight: 100;
+  margin: 0;
+}
+.Hero hgroup {
+  margin-bottom: 15px;
+}
+
+.Hero__title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.Hero__subtitle1 {
+  font-size: 36px;
+  margin: 0;
+}
+.Hero__subtitle2 {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .Hero {
+    grid-template-columns: 1fr 0 1fr;
+    gap: 30px;
+  }
+  .ilustration__container {
+    margin: 0;
+    align-self: center;
+    justify-self: right;
+  }
+  .Hero hgroup {
+    grid-area: 1/3;
+    align-self: center;
+    justify-self: left;
+  }
+
+  a {
+    align-self: end;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ilustration__container {
+    width: 320px;
+  }
+
+  .Hero__title {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .Hero__subtitle1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  .Hero__subtitle2 {
+    font-size: 2rem;
+  }
+
+  a {
+    margin-bottom: 250px;
+  }
+}

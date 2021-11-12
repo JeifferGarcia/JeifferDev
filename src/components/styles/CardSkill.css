@@ -1,0 +1,21 @@
+.CardSkill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 132px;
+  height: 123px;
+}
+
+.CardSkill span {
+  font-size: 40px;
+}
+.CardSkill h3 {
+  margin: 5px 0;
+  color: #0a1d36;
+}
+
+.CardSkill:hover {
+  box-shadow: 1px 0 10px #0a1d36;
+  transition: 0.5s;
+}

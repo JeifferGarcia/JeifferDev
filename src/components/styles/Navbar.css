@@ -1,0 +1,75 @@
+.Navbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+}
+
+.Navbar img {
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .Navbar a {
+    grid-area: 1;
+    justify-self: start;
+  }
+}
+/* .Navbar__hamburger{
+  position: relative;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.Navbar__hamburger::after{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  top: 10px;
+  left: 0;
+  border-radius: 2px;
+
+}
+
+.Navbar__hamburger::before{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  top: -10px;
+  left: 0;
+  border-radius: 2px;
+
+}
+
+.Navbar__x{
+  position: relative;
+  transform: rotate(45deg);
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.Navbar__x::before{
+  position: absolute;
+  content: "";
+  transform: rotate(270deg);
+  width: 30px;
+  height:5px;
+  left: 0;
+  background-color: white;
+
+} */

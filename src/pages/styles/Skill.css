@@ -1,0 +1,21 @@
+.Skill {
+  width: 100vw;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.Skill__title {
+  text-align: center;
+}
+
+.Skill__container_grid {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, 132px);
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .Skill__container_grid {
+    margin: 0;
+  }
+}

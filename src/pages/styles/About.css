@@ -1,0 +1,37 @@
+.About {
+  padding: 0 20px;
+  background-color: #247ba0;
+  color: #ffffff;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.About__title {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+}
+.About__description {
+  position: relative;
+  z-index: 10;
+}
+
+.About::after {
+  content: "";
+  width: 300px;
+  height: 300px;
+  background-color: #4daed7;
+  border-radius: 50px;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 0;
+  right: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .About::after {
+    left: -200px;
+  }
+}

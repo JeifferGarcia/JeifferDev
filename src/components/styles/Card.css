@@ -1,0 +1,19 @@
+.Card {
+  display: grid;
+  justify-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.Card__img {
+  width: 100%;
+}
+.Card__title {
+  margin: 10px auto;
+  color: #008080;
+}
+
+.Card__description {
+  padding: 0 10px;
+}

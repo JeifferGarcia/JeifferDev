@@ -1,0 +1,24 @@
+.Portfolio {
+  width: 100%;
+  background-color: #091d36;
+  padding: 20px 0;
+}
+.Portfolio__title {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 15px;
+}
+
+.Portfolio__container {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .Portfolio__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
